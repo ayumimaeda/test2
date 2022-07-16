@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------
+   PARTS
+--------------------------------------------------------------*/
+/*clearfix*/
+.cf{
+  display: block;
+}
+.cf:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.cf:before{
+  content: "";
+  display: block;
+  clear: both;
+}
+/*--------------------------------------------------------------
+   HEADER
+--------------------------------------------------------------*/
+.header{
+  width: 1040px;
+  margin: 0 auto;
+  padding: 26px 0 24px;
+}
+.logo{
+  float: left;
+}
+.gnav{
+  float: right;
+  font-size: 0;
+}
+.gnav__link{
+  display: inline-block;
+  margin-left: 40px;
+}
+.gnav__link a{
+  display: block;
+  padding: 17px 0;
+  font-size: 14px;
+  color: #74859f;
+  letter-spacing: 0.2rem;
+}
+/*--------------------------------------------------------------
+   MV
+--------------------------------------------------------------*/
+.mv{
+  width: 1040px;
+  margin: 0 auto;
+}
